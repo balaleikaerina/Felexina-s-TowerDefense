@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Glue Gun';
+    src: url('../resources/GlueGun.ttf');
+}
+
+.background {
+    /* -fx-background-image: url("main_bg.png")no-repeat; */
+    -fx-background-color: #1c1c1c;
+
+}
+
+.settingsButton {
+    -fx-background-image: url("../resources/images/settingsButton.png");
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+
+}
+
+.exitButton {
+    -fx-background-image: url("../resources/images/exitButton.png");
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+
+.introBackground {
+    -fx-background-image: url("../resources/images/example1.png");
+    -fx-background-repeat: no-repeat;
+
+}
+
+.introBackground2 {
+    -fx-background-image: url("../resources/images/example2.png");
+    -fx-background-repeat: no-repeat;
+
+}
+
+.introBackground3 {
+    -fx-background-image: url("../resources/images/example3.png");
+    -fx-background-repeat: no-repeat;
+
+}
+
+.introBackground4 {
+    -fx-background-image: url("../resources/images/example4.png");
+    -fx-background-repeat: no-repeat;
+
+}
+
+.introText {
+    -fx-font-size: 40;
+    -fx-font-family: 'Glue Gun';
+    -fx-stroke: black;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+
+}
+
+.introTextG {
+    -fx-font-size: 50;
+    -fx-font-family: 'Glue Gun';
+    -fx-stroke: black;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+
+}
+
+.playagainButton {
+    -fx-background-image: url("../resources/images/playagainButton.png");
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.mainmenuButton {
+   -fx-background-image: url("../resources/images/mainmenuButton.png");
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.backgroundlvl1 {
+    -fx-background-image: url("../resources/images/example1.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.backgroundlvl2 {
+    -fx-background-image: url("../resources/images/example2.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.backgroundlvl3 {
+    -fx-background-image: url("../resources/images/example3.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.youWin {
+    -fx-background-image: url("../resources/images/youwin.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.youLost {
+    -fx-background-image: url("../resources/images/youlost.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.nextWaveButton {
+    -fx-background-image: url("../resources/images/nextwaveButton.png");
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.upgradeButton {
+    -fx-background-image: url("../resources/images/upgradeTowerButton1.png");
+    -fx-background-size: 100%;
+    -fx-max-width: 150;
+    -fx-max-height: 40;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-text-fill: #823b1c;
+    -fx-font-size: 16;
+}
+
+.goBackButton {
+    -fx-background-image: url("../resources/images/goBackButton.png");
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+.creditsButton {
+    -fx-background-image: url("../resources/images/creditsButton.png");
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}

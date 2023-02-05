@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" type="Pane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane fx:id="backgroundblur" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0">
+   <top>
+      <HBox prefHeight="151.0" prefWidth="1760.0" BorderPane.alignment="CENTER">
+         <children>
+               <Pane fx:id="headerImage" prefHeight="138.0" prefWidth="400.0" styleClass="youWin" />
+            <Label fx:id="headerTitle" textFill="WHITE">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="80.0" left="80.0" right="80.0" top="80.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+   <bottom>
+      <Pane prefHeight="200.0" prefWidth="1732.0" style="-fx-background-color: #00000038;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="playagainButton" layoutX="1673.0" layoutY="58.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="190.0" styleClass="playagainButton" />
+            <Button fx:id="mainmenuButton" layoutX="84.0" layoutY="58.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="190.0" styleClass="mainmenuButton" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="80.0" left="80.0" right="80.0" top="80.0" />
+         </padding>
+      </Pane>
+   </bottom>
+   <left>
+      <Pane prefHeight="654.0" prefWidth="1022.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="80.0" />
+         </BorderPane.margin>
+         <children>
+            <VBox prefHeight="654.0" prefWidth="1022.0">
+               <children>
+                  <Label fx:id="enemys_killed" prefHeight="47.0" prefWidth="510.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="hp_left" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="towers_placed" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </left>
+</BorderPane>
+</fx:root>

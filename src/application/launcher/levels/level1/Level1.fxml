@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.FlowPane?>
+<fx:root prefHeight="1080" prefWidth="1920" type="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+         <AnchorPane fx:id="containerViewPane" prefHeight="880" prefWidth="1920" maxHeight="880" maxWidth="1920" layoutX="0" layoutY="50">
+            <AnchorPane fx:id="baseAnchorPane" prefHeight="880" prefWidth="1920" maxHeight="880" maxWidth="1920">
+               <children>
+                  <ImageView fx:id="baseMapImage" fitHeight="880" fitWidth="1920" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../resources/images/map1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Pane fx:id="clickRegisterPane" prefHeight="880" prefWidth="1920">
+
+            </Pane>
+         </AnchorPane>
+         <HBox fx:id="topLabelBox" prefHeight="70" prefWidth="1920" layoutX="0" layoutY="0" >
+            <children>
+               <ImageView fitHeight="50" fitWidth="50" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../../resources/images/hpicon.png" />
+                  </image>
+                  <HBox.margin>
+                     <Insets top="10.0" left="10.0" />
+                  </HBox.margin>
+               </ImageView>
+               <Label fx:id="hpStat" text="HP: XX">
+                  <font>
+                     <Font name="Glue Gun" size="30.0"  />
+                  </font>
+                  <padding>
+                     <Insets left="20.0" right="30.0" />
+                  </padding>
+                  <HBox.margin>
+                     <Insets top="15.0"  />
+                  </HBox.margin>
+               </Label>
+               <ImageView fitHeight="50" fitWidth="50" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../../resources/images/waveicon.png" />
+                  </image>
+                  <HBox.margin>
+                     <Insets top="10.0" left="10.0" />
+                  </HBox.margin>
+               </ImageView>
+               <Label fx:id="waveStat" text="Wave X">
+                  <font>
+                     <Font name="Glue Gun" size="30.0" />
+                  </font>
+                  <padding>
+                     <Insets left="20.0" right="20.0" />
+                  </padding>
+                  <HBox.margin>
+                     <Insets top="15.0"  />
+                  </HBox.margin>
+               </Label>
+               <ImageView fitHeight="50" fitWidth="50" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../../resources/images/goldicon2.png" />
+                  </image>
+                  <HBox.margin>
+                     <Insets top="10.0" left="10.0" />
+                  </HBox.margin>
+               </ImageView>
+               <Label fx:id="goldLabel" text="X Gold">
+                  <font>
+                     <Font name="Glue Gun" size="30.0" />
+                  </font>
+                  <padding>
+                     <Insets left="20.0" right="20.0" />
+                  </padding>
+                  <HBox.margin>
+                     <Insets top="15.0"  />
+                  </HBox.margin>
+               </Label>
+            </children>
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+         </HBox>
+      <FlowPane fx:id="bottomPane" prefHeight="150.0" prefWidth="1920" layoutX="0" layoutY="930">
+         <HBox fx:id="bottomButtonBox" prefWidth="620">
+            <FlowPane.margin>
+               <Insets top="10.0" left="10.0" />
+            </FlowPane.margin>
+         </HBox>
+         <HBox fx:id="towerButtonBox" prefWidth="650">
+            <FlowPane.margin>
+               <Insets top="10.0" left="10.0" />
+            </FlowPane.margin>
+         </HBox>
+         <HBox fx:id="bottomRightBox" prefWidth="600" alignment="CENTER_RIGHT">
+            <FlowPane.margin>
+               <Insets top="10.0" />
+            </FlowPane.margin>
+         </HBox>
+      </FlowPane>
+      </children>
+</fx:root>
