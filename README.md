@@ -2,8 +2,10 @@
 
 Tower Defense Game written in Java/FX 
 
-## Autoren
-
+## Made by
+- [@Felix Ruf](https://www.github.com/MalibusParty)
+- [@Alexandra Müller](https://www.github.com/Athayna)
+- [@Erina Daraz](https://www.github.com/erinadaraz)
 
 
 ## Screenshots
